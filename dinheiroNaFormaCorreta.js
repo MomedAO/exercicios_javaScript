@@ -10,6 +10,6 @@
 
 //funcao literal
 function dinheiroNaFormaCorreta(dinheiro){
-    console.log(`R$ ${dinheiro.toFixed(2)}`)
+    console.log(`R$ ${dinheiro.toFixed(2).toString().replace(".", ",")}`)
 }
-dinheiroNaFormaCorreta(0.30000000000000004)
+dinheiroNaFormaCorreta(0.1 + 0.2)
